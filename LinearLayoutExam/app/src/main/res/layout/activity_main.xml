@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff0000"
+    tools:context="com.shinhan.linearlayoutexam.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="#0dd4a6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Text1"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Text2"
+            android:background="#0dd4a6"
+            android:gravity="right|center_vertical">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="#006aff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="JUNG"
+                android:textSize="30dp"
+                android:background="#ea0505"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Seungwon"
+                android:textSize="30dp"
+                android:background="#c74f4f"
+                android:gravity="center">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="#0044ff"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/oysterjang">
+        </ImageView>
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jungku">
+        </ImageView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:background="#3700ff"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Button1"
+            android:id="@+id/but1"
+            android:onClick="onButton1Clicked"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Button2"
+            android:onClick="onButton1Clicked"
+            android:layout_toRightOf="@id/but1"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <!-- 이것은 주석입니다
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SubActivity"
+        android:text="BUTTON"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="#00ff00"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:src="@drawable/jungku"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="#0000ff"
+        android:layout_margin="20dp"
+        android:src="@drawable/oysterjang"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/yunju"/>
+
+        -->
+</LinearLayout>
