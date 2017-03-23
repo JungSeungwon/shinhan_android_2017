@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shinhan.travelshinhan">
+    package="com.shinhan.square">
 
     <application
         android:allowBackup="true"
@@ -17,12 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Loginactivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-        </activity>
-        <activity android:name=".UserActivity" />
-        <activity android:name=".EmployeeActivity" />
-        <activity android:name=".OptionalActivity"></activity>
     </application>
 
 </manifest>
