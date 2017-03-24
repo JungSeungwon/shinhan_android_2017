@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.shinhan.square.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shin"
+        android:padding="10dp"></ImageView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:background="#4872ed"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="onBut1Clicked"
+        android:text="신한 중고나라"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:background="#4872ed"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="onBut2Clicked"
+        android:text="신한 봉사활동"/>
+
+</LinearLayout>

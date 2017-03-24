@@ -22,7 +22,7 @@ public class SubActivity extends AppCompatActivity {
     }
 
     public void onCloseButtonClicked(View view){
-       Intent intent = new Intent();
+        Intent intent = new Intent();
         EditText editText = (EditText)findViewById(R.id.edittext1);
         String result = editText.getText().toString();
         intent.putExtra("Result",result);
