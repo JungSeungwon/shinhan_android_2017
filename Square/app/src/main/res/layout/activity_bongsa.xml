@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.shinhan.square.bongsaActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/homebut2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/homebutton"
+        android:onClick="gotohome"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="신한봉사활동 게시판"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:textColor="#ffffff"
+        android:background="#507af7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/writebut2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/write"
+        android:onClick="writeText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+</RelativeLayout>

@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
     public void onBut1Clicked(View view){
-        Intent intent = new Intent(this, joonggoActivity.class);
+        Intent intent = new Intent(this, joonggoMainActivity.class);
         startActivityForResult(intent,0);
     }
     public void onBut2Clicked(View view){
